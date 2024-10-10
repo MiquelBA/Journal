@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import { Button } from '../ui/button'
-import { Card, CardContent } from '../ui/card'
+mport Link from 'next/link'
+import { Button } from './ui/button'
+import { Card, CardContent } from './ui/card'
 import { BookHeart, Sparkles, MessageCircleHeart, Feather } from 'lucide-react'
 
 export default function Homepage() {
