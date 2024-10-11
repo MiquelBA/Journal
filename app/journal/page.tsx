@@ -1,5 +1,7 @@
 import React from 'react'
-import Journal from '../../components/Journal'
+import dynamic from 'next/dynamic'
+
+const Journal = dynamic(() => import('../../components/Journal'), { ssr: false })
 
 export default function JournalPage() {
   return (
